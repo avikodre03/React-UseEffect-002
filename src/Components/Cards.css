@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Dancing+Script&family=Fjalla+One&family=IBM+Plex+Sans:wght@500&family=Rampart+One&family=Roboto+Mono:wght@100;200&display=swap');
-
+::-webkit-scrollbar {
+    display: none;
+}
 .cards-container {
     width: 100%;
     height: 85%;
@@ -23,7 +25,7 @@
     background-image: linear-gradient(to right,
             #ec8383 0%, #d67171 0%, #c66767 0%,
             #df7272 30%, #b8858596 64%, #d76e6e84 100%);
-    border: 1px solid rgba(0, 0, 0, 0.676);
+    border: 1px solid gray;
     border-radius: 5px;
 }
 
