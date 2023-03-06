@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Dancing+Script&family=Fjalla+One&family=IBM+Plex+Sans:wght@500&family=Rampart+One&family=Roboto+Mono:wght@100;200&display=swap');
+
+.cards-container {
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.cards {
+    width: 500px;
+    min-height: 650px;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right,
+            #ec8383 0%, #d67171 0%, #c66767 0%,
+            #df7272 30%, #b8858596 64%, #d76e6e84 100%);
+    border: 1px solid rgba(0, 0, 0, 0.676);
+    border-radius: 5px;
+}
+
+.cardheading {
+    width: 90%;
+    text-align: center;
+    color: black;
+}
+
+.cardheading h1 {
+    font-size: 1.4rem;
+    font-family: Rampart One;
+    text-shadow: 1px 1px 3px rgb(131, 207, 255);
+}
+
+.orderlist {
+    width: 85%;
+    height: 200px;
+    padding: 10px;
+
+}
+
+.orderlist ol {
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.cards p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+
+
+}
+
+span {
+    font-family: Fjalla One;
+    font-weight: 600;
+}
+
+img {
+    width: 300px;
+    height: 260px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 2px #d3505084;
+}
